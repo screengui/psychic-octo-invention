@@ -3579,7 +3579,6 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 		Args = {"Shoot murderer", function(Self)
 			if findSheriff() ~= localplayer then 
 				fu.notification("You're not sheriff/hero.") 
-				return 
 			end
 	
 			local murderer = findMurderer() or findSheriffThatsNotMe()
