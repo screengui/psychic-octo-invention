@@ -2441,9 +2441,6 @@ local function HXNHH_fake_script() -- Fake Script: StarterGui.YARHM.Menu.List.Ad
 	local ts = game:GetService("TweenService")
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		ts:Create(script.Parent.Parent.UIScale, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-			Scale = 0.9
-		}):Play()
 		ts:Create(script.Parent.Parent.Parent.AddCustomModule, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
 			Position = UDim2.fromScale(0.5, 0.5)
 		}):Play()
